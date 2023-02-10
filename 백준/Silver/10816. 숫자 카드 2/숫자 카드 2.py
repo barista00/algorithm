@@ -1,10 +1,9 @@
-import sys
 from collections import Counter
-N = int(sys.stdin.readline())
-cards = list(map(int, sys.stdin.readline().split()))
+N = int(input())
+cards = list(map(int, input().split()))
 
-M = int(sys.stdin.readline())
-howmany = list(map(int, sys.stdin.readline().split()))
+M = int(input())
+howmany = list(map(int, input().split()))
 
 cards_count = Counter(cards)
 

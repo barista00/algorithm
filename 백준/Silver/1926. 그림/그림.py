@@ -21,9 +21,6 @@ def bfs(a, b):
 
             if x_ < 0 or x_ >= N or y_ < 0 or y_ >= M:
                 continue
-            
-            if matrix[x_][y_] == 0:
-                continue
 
             if matrix[x_][y_] == 1:
                 queue.append((x_, y_))
